@@ -1,44 +1,44 @@
 
-#contenedor2{
-    position: absolute;
-    top: 250px;
-    left: auto;
-    bottom: auto;
-    margin-top: 35px;
+#contenedor2{/*selestor tipo id="contenedor2 (contiene a las tres imagenes inferiores)"*/
+    position: absolute;/*se posiciona respecto a su padre body las imagenes y no deja ningun espacio en blanco */
+    top: 250px;/*movimiento superior*/
+    left: auto;/*movimiento a la izquierda automaticamente */
+    bottom: auto;/*movimiento inferior automaticamente */
+    margin-top: 35px;/*margen superior*/
 }
 
-.box{
-    float: left;
-    width:200px;
-    height: 200px;
-    margin: 10px;
-    background-color: black;
-   
+.box{/*selector clase son todas las cajitas de las imagenes*/
+    float: left;/*flotan las cajitas hacia la izquierda */
+    width:200px;/*ancho de cada cajita*/
+    height: 200px;/*alto de cada cajita*/
+    margin: 10px;/*margen de los cuatro lados de las cajitas*/
+    background-color: black;/*cada caja esta de color negro y encima esta la imagen*/
+
 }
 
-img{
-    max-width: 100%;
-    opacity: 0.6;
-    
+img{/*selector tipo etiqueta que las imagenes*/
+    max-width: 100%;/*cada imagen ocupara toda la caja al 100% que tiene como padre */
+    opacity: 0.6;/*cada imagen tiene una opacidad*/
+
 }
 
-h1{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    margin-left: 10px;
+h1{/*selector tipo etiqueta que contiene el titulo*/
+    font-family: 'Roboto Mono', monospace;/*fuente tipografica google fonts*/
+    font-size: 20px;/*tamano de fuente*/
+    margin-left: 10px;/*margen izquierdo donde debe estar el titulo alineado con las imagenes*/
 }
 
-hr{
-    width: 80px;
-    padding: 2px;
-    border: 0;
-    background-color: rgb(0,72,0);
-    height: 0;
-    margin-left: 10px;
+hr{/*selector tipo etiqueta que contiene a la linea*/
+    width: 80px;/*ancho de la linea*/
+    padding: 2px;/*relleno de la linea*/
+    border: 0;/*no tiene borde*/
+    background-color: rgb(0,72,0);/*color de la linea usando los colores primarios resalta  el color primario verde*/
+    height: 0;/*no tiene altura*/
+    margin-left: 10px;/*margen izquierdo de forma que se alinea con la imagen y el titulo*/
 }
-span {
-    position: relative;
-    color: white;
-    bottom: 30px;    
-    left: 80px;
+span {/*selector tipo etiqueta que contiene al texto de cada imagen*/
+    position: relative;/*posicionamiento relativo se mueve respecto a su eje inicial y si deja un espacio*/
+    color: white;/*color del texto*/
+    bottom: 30px; /*espacio inferiormente*/
+    left: 80px;/*espacio a la izquierda*/
 }
