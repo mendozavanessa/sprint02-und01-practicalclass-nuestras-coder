@@ -9,7 +9,7 @@
 
 .box{/*selector clase son todas las cajitas de las imagenes*/
     float: left;/*flotan las cajitas hacia la izquierda */
-    width:200px;/*ancho de cada cajita*/
+    width:200px;
     height: 200px;/*alto de cada cajita*/
     margin: 10px;/*margen de los cuatro lados de las cajitas*/
     background-color: black;/*cada caja esta de color negro y encima esta la imagen*/
